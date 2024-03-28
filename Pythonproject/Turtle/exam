@@ -1,0 +1,44 @@
+
+
+# import turtle as t
+# t.setup(300,200)
+# t.screensize(600,600,'pink')
+# t.pensize(12)
+# t.speed(10)
+# for i in range(36):
+#     t.right(10)
+#     t.forward(5)
+# t.mainloop()
+# from math import sqrt
+#
+# s=(5+7+11)/2
+# area=sqrt(s*(s-5)*(s-7)*(s-11))
+# print("Area of the triangle:",area)
+
+
+
+# from turtle import *
+# screensize(800,600,'pink')
+# color('red','yellow')
+# begin_fill()
+# while True:
+#     speed(0)
+#     forward(200)
+#     left(170)
+#     if abs(pos())<1:
+#         break
+# end_fill()
+# done()
+
+
+import  turtle
+pen = turtle.Pen()
+turtle.screensize(600,800,'pink')
+turtle.pensize(10)
+for i in range(8):
+    pen.speed(10)
+    pen.circle(100)
+    pen.right(45)
+turtle.mainloop()
+
+
